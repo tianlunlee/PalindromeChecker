@@ -6,9 +6,9 @@ public void setup()
  
   for (int i=0; i < lines.length; i++) 
   {
-    removeNon(lines[i].toLowerCase());
+   
 
-    if(palindrome(removeNon(lines[i]))==true)
+    if(palindrome(removeNon(lines[i]).toLowerCase())==true)
     {
       println(lines[i] + " IS a palidrome.");
     }
@@ -29,6 +29,7 @@ String temp = new String("");
     if (!sWord.substring(i, i+ 1).equals(" ") && Character.isLetter(sWord.charAt(i))) {
 
       temp = temp + sWord.substring(i, i+1);
+      
     }
   }
 

@@ -20,3 +20,10 @@ A Man! A Plan! A Canal! Panama! is NOT a palidrome.
 6. Submit the URL of your GitHub repository to the School Loop drop box for the assignment. Note that like the previous two assignments, this assignment has no graphics or website. 
 
 
+Correct output
+test N
+rotator Y
+rewriter N
+nurses run Y
+Madam, I'm Adam! Y
+A Man! A Plan! A Canal! Panama! Y
